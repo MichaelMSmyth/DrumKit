@@ -1,0 +1,91 @@
+/* <div class="board">
+<div id="keys">
+  <div id="clapA" class="inputBoxes">
+    <p>A<br />clap</p>
+  </div>
+  <div id="hiHatS" class="inputBoxes">
+    <p>S<br />hi-hat</p>
+  </div>
+  <div id="kickD" class="inputBoxes">
+    <p>D<br />kick</p>
+  </div>
+  <div id="openHatF" class="inputBoxes">
+    <p>F<br />open-hat</p>
+  </div>
+  <div id="boomG" class="inputBoxes">
+    <p>G<br />boom</p>
+  </div>
+  <div id="rideH" class="inputBoxes">
+    <p>H<br />ride</p>
+  </div>
+  <div id="snareJ" class="inputBoxes">
+    <p>J<br />snare</p>
+  </div>
+  <div id="tomK" class="inputBoxes">
+    <p>K<br />tom</p>
+  </div>
+  <div id="tinkL" class="inputBoxes"> */
+
+.board {
+
+  }
+
+#keys {
+    /* display: grid;
+    grid-auto-flow: column;
+    gap: 2em; */
+    display: flex;
+    flex: 1 1 auto;
+    min-width: 20em;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* @ (min-width: 60em) {
+    #keys {
+        grid-auto-flow: column;
+    }
+} */
+
+.inputBoxes {
+
+}
+
+#clapA {
+
+}
+
+#hiHatS {
+    
+}
+
+#kickD{
+    
+}
+
+#openHatF {
+    
+}
+
+#boomG {
+    
+}
+
+#rideH {
+    
+}
+
+#snareJ {
+    
+}
+
+#tomK {
+    
+}
+
+#tinkL {
+    
+}
